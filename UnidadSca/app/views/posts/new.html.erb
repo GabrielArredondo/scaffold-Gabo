@@ -1,0 +1,6 @@
+<h1>Crea Tu Nuevo Post</h1>
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+<%= render 'form', post: @post %>
+
+<%= link_to 'Back', posts_path, :class => 'btn btn-info' %>
